@@ -1,0 +1,27 @@
+{
+  "name": "node_entry",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "edge": "^7.10.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/portfolio-yh/node_entry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/portfolio-yh/node_entry/issues"
+  },
+  "homepage": "https://github.com/portfolio-yh/node_entry#readme",
+  "keywords": [],
+  "description": ""
+}
