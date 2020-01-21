@@ -1,27 +1,14 @@
 {
-  "name": "node_entry",
-  "version": "1.0.0",
-  "main": "app.js",
-  "dependencies": {
-    "edge": "^7.10.1"
+  "configuration": "// 「npm run build」で起動 / 「npm run start」でブラウザ起動&監視 / 「npm run watch」でファイル変更時の監視",
+  "scripts": {
+    "build": "node_modules/.bin/webpack",
+    "start": "node_modules/.bin/webpack-dev-server",
+    "watch": "webpack --watch"
   },
   "devDependencies": {
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   },
-  "scripts": {
-    "build": "webpack --mode development"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/portfolio-yh/node_entry.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/portfolio-yh/node_entry/issues"
-  },
-  "homepage": "https://github.com/portfolio-yh/node_entry#readme",
-  "keywords": [],
-  "description": ""
+  "private": true
 }
