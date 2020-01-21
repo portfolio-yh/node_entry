@@ -1,13 +1,7 @@
-// //npmを使ってインストール
-// npm i -D webpack webpack-cli
-//
-// i  ⇒ installの略
-// -D ⇒ インストール先をdevDependenciesにするための指定
+import {hello} from './sub';
 
-// import 文を使って sub.js ファイルを読み込む。
-import { hello } from "./sub";
-hello();
+const message = 'Hello World';
 
-//require(node.js)を使って sub.js ファイルを読み込む。
-// const item = require('./sub.js');
-// item.hello();
+// sub.jsに定義されたJavaScriptを実行する。
+hello(message);
+
