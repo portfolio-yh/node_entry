@@ -1,20 +1,24 @@
 {
-  "configuration": "// 「npm run build」で起動 / 「npm run start」でブラウザ起動&監視 / 「npm run watch」でファイル変更時の監視",
+  "configuration": "// このようにコメントアウト",
   "scripts": {
-    "build": "node_modules/.bin/webpack",
-    "start": "node_modules/.bin/webpack-dev-server",
-    "watch": "webpack --watch"
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "server": "node_modules/.bin/webpack-dev-server",
+    "start": "webpack --mode development --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "babel-loader": "^8.0.6",
+    "terser-webpack-plugin": "^2.3.2",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1"
   },
   "private": true,
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.2"
   }
 }
