@@ -6,9 +6,15 @@
     "watch": "webpack --watch"
   },
   "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-loader": "^8.0.6",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
