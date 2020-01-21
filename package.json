@@ -5,6 +5,9 @@
     "start": "node_modules/.bin/webpack-dev-server",
     "watch": "node_modules/.bin/webpack --watch"
   },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
